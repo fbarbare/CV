@@ -1,0 +1,170 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+[class*="entypo-"]:before{
+	font-family: 'entypo', sans-serif;
+	color: #0D9A55;
+}
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 12px;
+ 	color: #4B4D4C;
+}
+
+.parentheses:before,
+.parentheses:after {
+	display: inline-block;
+	width: 3px;
+}
+.parentheses:before {
+	content: "(";
+}
+.parentheses:after {
+	content: ")";
+}
+
+.green {
+	color: #0D9A55;
+}
+
+.block {
+	padding: 5px 0;
+}
+.paragraph {
+	text-indent: 20px;
+	text-align: justify;
+}
+
+.header {
+	width: 100%;
+	background: #F6F6F6;
+}
+.header * {
+	font-size: 14px;
+}
+.header .head {
+	width: 100%;
+	padding: 20px 40px;
+}
+.header .infos,
+.header .title {
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
+}
+
+.header .infos {
+	width: 30%;
+}
+.header .container {
+	display: table;
+	width: 100%;
+}
+.header .row {
+	display: table-row;
+}
+.header .cell {
+	display: table-cell;
+	padding: 5px 0;
+}
+.header .icon {
+	text-align: center;
+}
+.header .info {
+	padding-left: 10px;
+}
+
+.header .title {
+	text-align: right;
+	width: 70%;
+}
+.header .name {
+	font-size: 40px;
+	font-weight: bold;
+}
+.header .role {
+	font-size: 30px;
+}
+
+.header .more-projects {
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	padding: 5px 40px;
+	width: 100%;
+}
+.header .more-projects .see-more,
+.header .more-projects .social-networks {
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
+}
+.header .more-projects .see-more {
+	width: 30%;
+}
+.header .more-projects .social-networks {
+	width: 70%;
+}
+.header .more-projects .social-network {
+	display: inline-block;
+	width: 50%;
+}
+
+.information {
+	padding: 30px 40px 0px;
+}
+.information .title {
+	margin-bottom: 5px;
+	border-bottom: 1px solid #4B4D4C;
+	padding-bottom: 5px;
+	font-size: 18px;
+}
+.information .title:before {
+	padding-right: 10px;
+}
+.information .content {
+	font-size: 12px;
+}
+
+.table {
+	display: table;
+	width: 100%;
+}
+.table-row {
+	display: table-row;
+}
+.table-cell {
+	display: table-cell;
+}
+.table-title {
+	width: 30%;
+}
+.table-description {
+	width: 70%;
+	font-size: 12px;
+	text-align: justify;
+}
+.dates {
+	font-size: 10px;
+}
+.inline {
+	display: inline-block;
+}
+
+.company {
+	padding: 20px 0 0;
+}
+.company-name:before {
+	content: "At:";
+}
+
+.project-name {
+	font-weight: bold;
+}
+.project-info {
+	padding-left: 20px;
+	padding-top: 3px;
+	font-size: 12px;
+}
