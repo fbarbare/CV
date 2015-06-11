@@ -156,9 +156,6 @@
 .company {
 	padding: 20px 0 0;
 }
-.company-name:before {
-	content: "At:";
-}
 
 .project-name {
 	font-weight: bold;
