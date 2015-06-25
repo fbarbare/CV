@@ -10,7 +10,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: sans-serif;
-	font-size: 12px;
+	font-size: 11px;
  	color: #4B4D4C;
 }
 
@@ -38,7 +38,7 @@ small {
 }
 
 .block {
-	padding: 5px 0;
+	padding: 4px 0;
 }
 .paragraph {
 	text-indent: 20px;
@@ -51,13 +51,14 @@ small {
 }
 .header{
 	border-bottom: 1px solid #DDDDDD;
+	margin-bottom: 5px;
 }
 .header * {
 	font-size: 14px;
 }
 .header .head {
 	width: 100%;
-	padding: 20px 40px;
+	padding: 15px 30px;
 }
 .header .infos,
 .header .title {
@@ -78,7 +79,7 @@ small {
 }
 .header .cell {
 	display: table-cell;
-	padding: 5px 0;
+	padding: 2px 0;
 }
 .header .icon {
 	text-align: center;
@@ -116,19 +117,18 @@ small {
 }
 
 .information {
-	padding: 30px 40px 0px;
+	padding: 10px 30px 0px;
 }
 .information .title {
 	margin-bottom: 5px;
 	border-bottom: 1px solid #4B4D4C;
-	padding-bottom: 5px;
-	font-size: 18px;
+	padding-bottom: 2px;
+	font-size: 16px;
 }
 .information .title:before {
 	padding-right: 10px;
 }
 .information .content {
-	font-size: 12px;
 }
 
 .table {
@@ -146,11 +146,10 @@ small {
 }
 .table-description {
 	width: 70%;
-	font-size: 12px;
 	text-align: justify;
 }
 .dates {
-	font-size: 10px;
+	font-size: 75%;
 }
 .inline {
 	display: inline-block;
@@ -167,5 +166,4 @@ small {
 	padding-left: 20px;
 	padding-top: 3px;
 	color: #666666;
-	font-size: 12px;
 }
