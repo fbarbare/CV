@@ -49,6 +49,9 @@ small {
 	width: 100%;
 	background: #F6F6F6;
 }
+.header{
+	border-bottom: 1px solid #DDDDDD;
+}
 .header * {
 	font-size: 14px;
 }
@@ -94,13 +97,6 @@ small {
 }
 .header .role {
 	font-size: 30px;
-}
-
-.header .more-projects {
-	border-top: 1px solid #DDDDDD;
-	border-bottom: 1px solid #DDDDDD;
-	padding: 5px 40px;
-	width: 100%;
 }
 .header .more-projects .see-more,
 .header .more-projects .social-networks {
