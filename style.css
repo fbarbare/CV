@@ -17,6 +17,9 @@
 body {
 	padding-bottom: 30px;
 }
+small {
+	font-size: 75%;
+}
 
 .parentheses:before,
 .parentheses:after {
